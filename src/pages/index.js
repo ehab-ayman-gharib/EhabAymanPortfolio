@@ -189,10 +189,10 @@ export default function Home() {
               onMouseLeave={resetGridParallax}
             >
               {paginatedProjects.map((project, idx) => (
-                <div key={idx} className="relative group cursor-pointer rounded-2xl overflow-hidden" onClick={() => setModalProject(project)}>
+                <div key={idx} className="relative group cursor-pointer rounded-2xl h-[500px]" onClick={() => setModalProject(project)}>
                   <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
-                  <div className="relative z-10 bg-white/50 backdrop-blur-xl rounded-2xl p-5 flex flex-col items-center border border-white/50 shadow-[0_2px_20px_rgba(2,6,23,0.06),0_12px_40px_-20px_rgba(2,6,23,0.2)] transition-transform duration-300 transform hover:translate-y-[-2px] hover:shadow-[0_8px_30px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)] overflow-hidden">
-                    <div className="pointer-events-none absolute -top-24 left-1/2 -translate-x-1/2 w-[120%] h-48 rounded-[999px] bg-white/40 blur-3xl opacity-30 group-hover:opacity-40 transition"></div>
+                  <div className="relative z-10 bg-white/50 backdrop-blur-xl rounded-2xl p-5 flex flex-col items-center border border-white/50 shadow-[0_2px_20px_rgba(2,6,23,0.06),0_12px_40px_-20px_rgba(2,6,23,0.2)] transition-transform duration-300 transform hover:translate-y-[-2px] hover:shadow-[0_8px_30px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)] overflow-hidden h-full">
+                    <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-16 rounded-[999px] bg-white/40 blur-3xl opacity-30 group-hover:opacity-40 transition"></div>
                     <div className="w-full h-48 mb-4 overflow-hidden rounded-xl flex items-center justify-center bg-gradient-to-br from-[#f0f4ff]/80 via-[#e0f7fa]/70 to-[#f0fff4]/80 relative shadow-md">
                       <Image
                         src={project.image}
@@ -216,7 +216,7 @@ export default function Home() {
                         ))}
                       </div>
                     )}
-                    <p className="text-[#0f172a]/80 text-sm text-center leading-relaxed">{project.description}</p>
+                    <p className="text-[#0f172a]/80 text-sm text-center leading-relaxed flex-1">{project.description}</p>
                   </div>
                 </div>
               ))}
