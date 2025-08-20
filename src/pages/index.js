@@ -258,22 +258,34 @@ export default function Home() {
           </div>
           {/* Modal Video Player */}
           {modalProject && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80" onClick={() => setModalProject(null)}>
-              <div className="bg-[#232a45] rounded-xl p-4 sm:p-6 w-full max-w-xs sm:max-w-md md:max-w-md lg:max-w-lg xl:max-w-xl relative flex flex-col items-center" onClick={e => e.stopPropagation()}>
-                <button className="absolute top-2 right-2 text-white text-2xl z-10" onClick={() => setModalProject(null)}>&times;</button>
-                <h2 className="text-lg font-bold text-white mb-2 text-center truncate w-full">{modalProject.title}</h2>
-                <div className="w-full flex justify-center items-center mb-2">
-                  <div className="relative w-full" style={{ aspectRatio: '9/16', maxHeight: '60vh' }}>
-                    <video
-                      src={modalProject.video}
-                      controls
-                      autoPlay
-                      className="w-full h-full object-contain rounded-lg bg-black"
-                      style={{ maxHeight: '60vh', maxWidth: '100%' }}
-                    />
-                  </div>
-                </div>
-                <a href={modalProject.link} target="_blank" rel="noopener noreferrer" className="text-[#3b82f6] underline mt-2 text-center break-all">Project Link</a>
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm" onClick={() => setModalProject(null)}>
+                             <div className="bg-white/50 backdrop-blur-xl rounded-2xl p-4 sm:p-6 w-full max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl relative flex flex-col items-center border border-white/50 shadow-[0_8px_32px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)]" onClick={e => e.stopPropagation()}>
+                 <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
+                <button className="absolute top-3 right-3 text-[#10172a] hover:text-[#3b82f6] text-2xl z-10 transition-colors" onClick={() => setModalProject(null)}>&times;</button>
+                                                  <h2 className="heading-font text-lg sm:text-xl font-bold mb-4 text-center px-2 leading-tight text-[#10172a]">{modalProject.title}</h2>
+                                                     <div className="w-full flex justify-center items-center mb-4">
+                    <div className="relative w-full max-w-2xl mx-auto">
+                                            <video
+                         src={modalProject.video}
+                         controls
+                         autoPlay
+                         className="w-full h-auto max-h-[70vh] rounded-lg shadow-lg"
+                       />
+                   </div>
+                 </div>
+                                 {modalProject.link && modalProject.link.trim() !== "" && (
+                   <a 
+                     href={modalProject.link} 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#3b82f6] text-white font-semibold shadow-md hover:bg-[#2563eb] hover:shadow-lg transition-all duration-200 transform hover:scale-105"
+                   >
+                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                     </svg>
+                     View Project
+                   </a>
+                 )}
               </div>
             </div>
           )}
