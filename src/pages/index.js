@@ -223,20 +223,20 @@ export default function Home() {
             </div>
             {/* Pagination Controls */}
             {totalPages > 1 && (
-              <div className="flex justify-center mt-8 gap-2">
+              <div className="flex flex-wrap justify-center items-center mt-8 gap-2 w-full">
                 <button
                   onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
                   disabled={currentPage === 1}
-                  className="px-4 py-2 rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
+                  className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
                 >
                   Prev
                 </button>
-                <span className="flex gap-2">
+                <span className="flex gap-2 flex-wrap justify-center w-full sm:w-auto">
                   {[...Array(totalPages)].map((_, i) => (
                     <button
                       key={i}
                       onClick={() => setCurrentPage(i + 1)}
-                      className={`px-4 py-2 rounded-full font-semibold border shadow-sm transition
+                      className={`px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full font-semibold border shadow-sm transition
                         ${currentPage === i + 1
                           ? 'bg-[#3b82f6] text-white border-[#3b82f6] drop-shadow-md'
                           : 'bg-white/80 text-[#10172a] border-blue-200 hover:bg-blue-100 hover:text-[#3b82f6]'}
@@ -249,7 +249,7 @@ export default function Home() {
                 <button
                   onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
                   disabled={currentPage === totalPages}
-                  className="px-4 py-2 rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
+                  className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
                 >
                   Next
                 </button>
