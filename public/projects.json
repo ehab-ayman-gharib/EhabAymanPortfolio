@@ -1,0 +1,1508 @@
+[
+    {
+        "title": "ICE Catch Game",
+        "description": "A Back Camera Device Motion Based Catch Game",
+        "image": "/images/ICE-Catch-Game.jpg",
+        "video": "/videos/ICE-Catch-Game.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=91b01195c06741dca8d28c8a421f0b52&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Device Motion",
+            "3D Game",
+            "Game Physics"
+        ]
+    },
+    {
+        "title": "Arla Milk This or That",
+        "description": "A front Camera Face Experience for Arla Milk",
+        "image": "/images/ArlaMilk-This-Or-That.jpg",
+        "video": "/videos/ArlaMilk-This-Or-That.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=f97741722eaa4ee7ae48637213021ffc&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Face Tracking",
+            "2D Experience",
+            "ML Face Effects"
+        ]
+    },
+    {
+        "title": "ViaPlay Match Game",
+        "description": "A 2D match game for ViaPlay",
+        "image": "/images/Viaplay-Match-Game.jpg",
+        "video": "/videos/Viaplay-Match-Game.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=1f04dcd712dd40d58d7e71c0a03001e6&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Face Tracking",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "CBB Mix",
+        "description": "A 2D mouth catch game for CBB",
+        "image": "/images/CBB-Mouth-Catch-Game.jpg",
+        "video": "/videos/CBB-Mouth-Catch-Game.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=2ec603a13b0c4e078b2300ff196752bb&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Face Tracking",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "UEFA Disney EUROPA LEAGUE RANKING",
+        "description": "2D Randomizer for DisneyPlus",
+        "image": "/images/UEFA-Disney-EUROPA-LEAGUE-RANKING.jpg",
+        "video": "/videos/UEFA-Disney-EUROPA-LEAGUE-RANKING.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=ae7deb47c31a4b3dae134ad322ede081&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Face Tracking",
+            "2D Randomizer"
+        ]
+    },
+    {
+        "title": "ThreeLikeHome GoRoam Randomizer",
+        "description": "2D Randomizer Experience for ThreeLikeHome",
+        "image": "/images/ThreeLikeHome-GoRoam-Randomizer.jpg",
+        "video": "/videos/ThreeLikeHome-GoRoam-Randomizer.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=6ab60a72b03346a1985e10aacae98532&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Portrait Segmentation",
+            "2D Randomizer"
+        ]
+    },
+    {
+        "title": "Skeptisk Online",
+        "description": "3D Head Binded Q&A Experience for Telenor",
+        "image": "/images/TelenorQA-HeadBinded.jpg",
+        "video": "/videos/TelenorQA-HeadBinded.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=78cf9cb20bd0469f96eb2a2a8314cb34&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Head Binding",
+            "2D Game",
+            "2D Face Props",
+            "3D Head Mesh"
+        ]
+    },
+    {
+        "title": "Snapchat Cafe Event",
+        "description": "3D Head Binded Spin the wheel Experience for Snapchat Cafe Event",
+        "image": "/images/Snapchat-Cafe-Event-25.jpg",
+        "video": "/videos/Snapchat-Cafe-Event-25.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=cff343bedc2d41e5b67907f2dd19389f&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Head Binding",
+            "Randomizer",
+            "3D Head Props",
+            "3D Face Mesh"
+        ]
+    },
+    {
+        "title": "MorgenLevering Birthday Plan",
+        "description": "A Personalized Birthday Planning Experience for MorgenLevering",
+        "image": "/images/MorgenLevering-BirthdayPlan.jpg",
+        "video": "/videos/MorgenLevering-BirthdayPlan.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=3479b43fac984cc29d614f7e2a677a95&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Friends API",
+            "Background Segmentation",
+            "Bitmojis API"
+        ]
+    },
+    {
+        "title": "Meny Tetris",
+        "description": "2D Tetris Game for Meny",
+        "image": "/images/MenyTetris.jpg",
+        "video": "/videos/MenyTetris.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=5fb1a0e323a44080a9ccf6913b8b3cba&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "ICE Goat",
+        "description": "A 3D Face and Facial Expressions Lens for ICE telecommunications",
+        "image": "/images/ICE-Goat.jpg",
+        "video": "/videos/ICE-Goat.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=83ae485981884590a2320ef3c4ba23aa&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "3D Face Mask",
+            "Facial Expressions",
+            "Head Binding",
+            "Chain Physics"
+        ]
+    },
+    {
+        "title": "Disney x UEFA Knockout Lens",
+        "description": "2D Knockout team experience where users can select their favorite team",
+        "image": "/images/DisneyxUEFA-Knockout-Lens.jpg",
+        "video": "/videos/DisneyxUEFA-Knockout-Lens.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=3bfa4244014a4a71aab54d84c2d3b50c&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Randomizer",
+            "Chain Physics"
+        ]
+    },
+    {
+        "title": "CameraKit Web Body Tracking Demo",
+        "description": "A WebAR experience where users can upload thier own short videoes and the motion is reflected to one of the selected 3D characters",
+        "image": "/images/CameraKit-Web-BodyTracking.jpg",
+        "video": "/videos/CameraKit-Web-BodyTracking.webm",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Body Tracking",
+            "Camerakit WebSDK",
+            "3D Model Body Driven"
+        ]
+    },
+    {
+        "title": "Al Nassr FC Lens",
+        "description": "Interactive 3D Game where users can select their favorite Al Nassr player aiming to score goals",
+        "image": "/images/AlNassrFCLens.jpg",
+        "video": "/videos/AlNassrFCLens.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=48c9a4e2491742e290662902f9044aca&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Face Tracking",
+            "3D Head Mesh",
+            "3D Game"
+        ]
+    },
+    {
+        "title": "Al Riyad Bank Fursan Credit Card",
+        "description": "Interactive 360 experience for Al Riyad Bank",
+        "image": "/images/AlRiyadBankFursanCreditCard.jpg",
+        "video": "/videos/AlRiyadBankFursanCreditCard.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=a0f5d82748b544b5b8463f938fb19306&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Head Binding",
+            "360 Photos",
+            "Device Motion"
+        ]
+    },
+    {
+        "title": "Al Youm Ramadan Recipes",
+        "description": "Interactive Experience where users can view their favorite Ramadan recipes",
+        "image": "/images/AlYoum-Ramadan-Recipes.jpg",
+        "video": "/videos/AlYoum-Ramadan-Recipes.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=6c3394c6dd7c4b23b6d6b8436f903f11&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Animations"
+        ]
+    },
+    {
+        "title": "Asian Cup Qatar 23",
+        "description": "3D Runner Game for Asian Cup Qatar 23",
+        "image": "/images/Asian Cup Qatar.jpg",
+        "video": "/videos/Asian Cup Qatar.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=a8e3badfb0204b319d7ccf28a62a32fc&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Runner Game",
+            "Neck Binding"
+        ]
+    },
+    {
+        "title": "Aromatic Amazing Lenses",
+        "description": "3D eye lenses Tryon Shopping experience for Aromatic lenses",
+        "image": "/images/Aromatic-Amazing-Lenses-24.jpg",
+        "video": "/videos/Aromatic-Amazing-Lenses-24.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=efe2b474e61047cc968c26258c141e90&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Eye Tracking",
+            "Shopping Experience"
+        ]
+    },
+    {
+        "title": "AXE ESPORTS",
+        "description": "Interactive Experience for AXE ESPORTS event engaging users with various ESPORTS related elements",
+        "image": "/images/AXE ESPORTS.jpg",
+        "video": "/videos/AXE ESPORTS.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=6c3233c012eb44309cc6c30cde9cdcab&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "2D Body Tracking",
+            "Hand Physics",
+            "Head Binding",
+            "3D Head Props"
+        ]
+    },
+    {
+        "title": "Comfort Comfees",
+        "description": "Interactive 3D Body Tracking Experience for Comfort Detergents",
+        "image": "/images/Comfot Comfees.jpg",
+        "video": "/videos/Comfot Comfees.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=a700dc127d1448479a26f11c31a83255&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "3D Body Attachments"
+        ]
+    },
+    {
+        "title": "Centre Point Ramadan 2023",
+        "description": "3D Runner Game for Centter Point Ramadans 2023 Camaign",
+        "image": "/images/CentrePointRamadan23.jpg",
+        "video": "/videos/CentrePointRamadan23.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=a021a2f444a444fda7055fb00cb08cc1&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Runner Game"
+        ]
+    },
+    {
+        "title": "Saadiyat Cultural District",
+        "description": "Engaging Quesions and Answers experience for Department of Culture and Tourism Abu Dhabi",
+        "image": "/images/DCT-Saadiyat-Cultural-District.jpg",
+        "video": "/videos/DCT-Saadiyat-Cultural-District.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=6b833bf492a04611915efeee0e32655d&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "Quiz Game"
+        ]
+    },
+    {
+        "title": "Explore Abu Dhabi",
+        "description": "Ineractive 3D Map experience where users can explore the cultural landmarks of Abu Dhabi",
+        "image": "/images/DepartmentOfCultureAndTourismAbuDhabi-Summer25.jpg",
+        "video": "/videos/DepartmentOfCultureAndTourismAbuDhabi-Summer25.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=166b4be1da104bf0b7f9aeffbd1e5e7a&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "Quiz Game"
+        ]
+    },
+    {
+        "title": "Diryah Biennale Islamic Art Lens",
+        "description": "Interactive 2D Collage experience for Department of Culture and Tourism Abu Dhabi engaging users with various Islamic Art elements",
+        "image": "/images/Diryah-Biennale-Islamic-Art-Lens.jpg",
+        "video": "/videos/Diryah-Biennale-Islamic-Art-Lens.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=0076c0506d2d4d40a75bde03774a7fa6&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Animations"
+        ]
+    },
+    {
+        "title": "Dominos Slice Catcher",
+        "description": "A 2D catch game for Dominos where users get to catch correct pizza ingredients",
+        "image": "/images/Dominos-Slice-Catcher.jpg",
+        "video": "/videos/Dominos-Slice-Catcher.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=cfd68be064d04e2e97e6cbe0e25487b7&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "Find What you love",
+        "description": "Head Tilt controlled knockout experience for EBAY where users can select their favorite product",
+        "image": "/images/EBAYxCAT.jpg",
+        "video": "/videos/EBAYxCAT.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=a029711a24b849b98e896fec9890f639&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Head Tilt",
+            "3D Animations",
+            "Knockout Game"
+        ]
+    },
+    {
+        "title": "Expo Doha 23",
+        "description": "Interactive experience for Expo Doha 23",
+        "image": "/images/Expo Doha 23.jpg",
+        "video": "/videos/Expo Doha 23.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=4514b76b6f2345ae9c0b58326f6ae5a1&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "3D Tweens"
+        ]
+    },
+    {
+        "title": "F1 Saudi Arabia - Instant Lens",
+        "description": "Interactive experience for F1 Saudi Arabia where users can engage with various F1 elements",
+        "image": "/images/F1SaudiArabia-Instant-Lens.jpg",
+        "video": "/videos/F1SaudiArabia-Instant-Lens.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=02c4104986a54d31aa0c6c1240b6805b&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "3D Head Props"
+        ]
+    },
+    {
+        "title": "Fly Emirates Madagascar",
+        "description": "Interactive 3D experience for Fly Emirates Fly to Madagascar campaign",
+        "image": "/images/FlyEmiratesMadagascar.jpg",
+        "video": "/videos/FlyEmiratesMadagascar.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c5638c625ebc40ffa1a99f687bd94d9b&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Portrait Segmentation",
+            "3D Animations",
+            "User Smile Tracking"
+        ]
+    },
+    {
+        "title": "Glow & Lovely Hydra Glow",
+        "description": "Engaging Face Effect where users can see the product effects on their face",
+        "image": "/images/Glow&Lovely-HydraGlow.jpg",
+        "video": "/videos/Glow&Lovely-HydraGlow.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=1541042c002b4876a9ded060444ca699&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "AR Makeup",
+            "3D Animations",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "Jahez Runner Game",
+        "description": "3D Runner Game for Jahez App for AL ADHA 2023",
+        "image": "/images/JahezRunnerGame.jpg",
+        "video": "/videos/JahezRunnerGame.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=aa6fa060a38f4473add95d1fe57a5720&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Runner Game"
+        ]
+    },
+    {
+        "title": "JGroup Runner Game Mirror",
+        "description": "3D Runner Game for JGroup for Qatar Web Summit 2025",
+        "image": "/images/JGroup-Runner-Game-Mirror.jpg",
+        "video": "/videos/JGroup-Runner-Game-Mirror.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7a994b4f17cc45719c47519bf6dd0ce3&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Runner Game"
+        ]
+    },
+    {
+        "title": "Kinder Joy Funko Pop",
+        "description": "Interactive Head Binded Experience for Kinder Joy where users can see the Funko Pop character on their head",
+        "image": "/images/Kinder-Joy-Funko-Pop.jpg",
+        "video": "/videos/Kinder-Joy-Funko-Pop.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=9b602e368d0448fa8fda93729b9f9d11&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Head Binding",
+            "3D Head Props"
+        ]
+    },
+    {
+        "title": "Kraft It Karaoke",
+        "description": "Sing Along Karaoke experience for Kraft where users can sing along with the animated lyrics",
+        "image": "/images/Kraft-It-Karaoke.jpg",
+        "video": "/videos/Kraft-It-Karaoke.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=ad9576e8364540098a7cc1cde2ba7400&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Animations"
+        ]
+    },
+    {
+        "title": "Krispy Kreme Saudi Arabia Q4 Offers",
+        "description": "3D Shooting game where users try Collecting donuts to score points and get discounts",
+        "image": "/images/KrispyKreme-Saudi-Arabia-Q4-Offers.jpg",
+        "video": "/videos/KrispyKreme-Saudi-Arabia-Q4-Offers.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=be4f6cefe0694f43af8b014812abb482&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Shooting Game"
+        ]
+    },
+    {
+        "title": "Leap 23 Mirror",
+        "description": "Interactive mirror experience for Leap 23 event where users can select various funny ML face effects on their face",
+        "image": "/images/Leap-23-Mirror.jpg",
+        "video": "/videos/Leap-23-Mirror.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c181a18b9e5d4bb49d3b3cd71dc20646&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Body Tracking",
+            "Face Tracking",
+            "ML Face Effects"
+        ]
+    },
+    {
+        "title": "LifeBuoy - Germs Game",
+        "description": "Interactive Game for LifeBuoy where users can control LifeBuoy product to kill germs",
+        "image": "/images/LifeBuoy.jpg",
+        "video": "/videos/LifeBuoy.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=386a80d1465949da8c358e178e2a85f8&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "Lipton Zero Fear",
+        "description": "Interactive experience for Lipton Zero where users are engaged in different environments with Lipton Zero product",
+        "image": "/images/Lipton-Zero-Fear-24.jpg",
+        "video": "/videos/Lipton-Zero-Fear-24mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=26e4fb39c5114fb09faa4f9d71e3d9f0&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "2D Animations",
+            "Face Tracking",
+            "ML Face Effects"
+        ]
+    },
+    {
+        "title": "Liwa Festival - Vroom To The Dunes",
+        "description": "Audio interactive game for Liwa Festival where users can control the car movement using their voice loudness",
+        "image": "/images/Liwa-Festival-Vroom-To-The-Dunes-24.jpg",
+        "video": "/videos/Liwa-Festival-Vroom-To-The-Dunes-24.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=85dbade5112243f99dfa1069b29bb063&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Audio Interaction",
+            "3D Game",
+            "Game Physics"
+        ]
+    },
+    {
+        "title": "Maybelline Sun Kisser Blush",
+        "description": "Interactive makeup tryon experience for Maybelline Sun Kisser Blush where users can apply different shades of blush on their face",
+        "image": "/images/Maybelline-SunKisser-Blush.jpg",
+        "video": "/videos/Maybelline-SunKisser-Blush.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=cea46418406845729b1058df36c05163&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "AR Makeup",
+            "3D Animations",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "MOC Cultural Tournament",
+        "description": "Interactive experience for Ministry of Culture Saudi Arabia Cultural Tournament where users can engage with various cultural elements",
+        "image": "/images/MOC-Cultural-Tournament-2.jpg",
+        "video": "/videos/MOC-Cultural-Tournament-2.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=9d307d1d3ab44fe98e4e5a4532cc4a34&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "3D Animations",
+            "ML Face Effects"
+        ]
+    },
+    {
+        "title": "Nivea Anti Stain Ramadan 25",
+        "description": "Interactive experience for Nivea Anti Stain deodorant where users can see the product effects on their clothes",
+        "image": "/images/Nivea-Black-N-White-Ramadan-25.jpg",
+        "video": "/videos/Nivea-Black-N-White-Ramadan-25.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=08bf8c83455542ef9c23074e8995c4fe&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Animations",
+            "3D Tshirt Tryon"
+        ]
+    },
+    {
+        "title": "Nivea Micellar Ramadan 25",
+        "description": "Engaging Makeup Tryon experience for Nivea Micellar Water where users can see how the product removes makeup on their face",
+        "image": "/images/Nivea-Micellar-Ramadan-25.jpg",
+        "video": "/videos/Nivea-Micellar-Ramadan-25.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=87d5bcf21352441f8a067b618045bd50&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "AR Makeup",
+            "3D Animations",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "Qatar Airways",
+        "description": "Engaging 3D Runner Game for Qatar Airways",
+        "image": "/images/QatarAirways.jpg",
+        "video": "/videos/QatarAirways.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=8d43ec98ce8a4b4c97a107afd84b53b2&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Runner Game",
+            "Neck Binding"
+        ]
+    },
+    {
+        "title": "Rama Clinics",
+        "description": "Face Tracking experience for Rama Clinics with a focus on  users facial features that can be enhanced through Rama Clinics",
+        "image": "/images/Rama-Clinics-FaceFocus.jpg",
+        "video": "/videos/Rama-Clinics-FaceFocus.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=f3cf80a52406481b850ae7f7a91f5ef2&metadata=01",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Face Mask",
+            "Face Tracking",
+            "Zoom Effect"
+        ]
+    },
+    {
+        "title": "Signal Charcoal",
+        "description": "Interactive experience for Signal Charcoal where users can see the product effects on their teeth",
+        "image": "/images/Signal Charcoal.jpg",
+        "video": "/videos/Signal Charcoal.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=772b4119c54e4f328e4107072788b1c9&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Face Mask",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "Snap Magazine Cover",
+        "description": "Interactive experience where users get to be the cover of the magazine",
+        "image": "/images/SnapMagazineCover.jpg",
+        "video": "/videos/SnapMagazineCover.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=33277d630922483d8130066ed5707631&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "Portrait Segmentation"
+        ]
+    },
+    {
+        "title": "Telgana Quiz",
+        "description": "3D Head Binded Q&A Experience for Snapchat Telgana Event",
+        "image": "/images/Telgana-Quiz.jpg",
+        "video": "/videos/Telgana-Quiz.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=11fc70e56a494a7e92787ee0ea74204b&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Head Binding",
+            "Quiz Game",
+            "2D Animations"
+        ]
+    },
+    {
+        "title": "Unilever OMO Detergent",
+        "description": "3D Shooting game where users catch shooting footbal with their body",
+        "image": "/images/Unilever-omo-detergent-tshirt-24.jpg",
+        "video": "/videos/Unilever-omo-detergent-tshirt-24.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=6e3d23d63afb4cd4b8e5b25bbc0f7d75&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "3D Game",
+            "Body Tracking"
+        ]
+    },
+    {
+        "title": "West Elm Ramadan 23",
+        "description": "A world Tracked 3D Experience where users can decorate their ramadan table with West Elm products",
+        "image": "/images/WetElmRamadan.jpg",
+        "video": "/videos/WetElmRamadan.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=b27bacaf3a194963bcfdfb07d2450438&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "World Tracking",
+            "3D Model Interactions"
+        ]
+    },
+    {
+        "title": "Red Sea International Film Festival 2024",
+        "description": "Head Binded Randomizer for Red Sea International Film Festival 2024",
+        "image": "/images/RedSea-IFF-24.jpg",
+        "video": "/videos/RedSea-IFF-24.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=a49a531e59a849fb8ef102260b677789&metadata=01",
+        "categories": [
+            "Snapchat Lenses",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "JavaScript",
+            "Head Binding",
+            "2D Randomizer"
+        ]
+    },
+    {
+        "title": "Zed Park Winter Festival",
+        "description": "Face Tracking 2D Collect Game for Zed Park Winter Festival",
+        "image": "/images/ZedParkWinterFestival.jpg",
+        "video": "/videos/ZedParkWinterFestival.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "We Summer Shirts",
+        "description": "Funny Summer look Filter for WE Telecom",
+        "image": "/images/We_Summer_Shirts_Filter.jpg",
+        "video": "/videos/We_Summer_Shirts_Filter.mov",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Head Binding",
+            "Neck Binding"
+        ]
+    },
+    {
+        "title": "Stella Filter",
+        "description": "2D Collages Randomizer for Stella Beverages",
+        "image": "/images/StellaFilterVideoPreview.jpg",
+        "video": "/videos/StellaFilterVideoPreview.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "2D Animations",
+            "Background Segmentation"
+        ]
+    },
+    {
+        "title": "Skoringen - Bring Disney to you",
+        "description": "A 3D Face and background segmentation experience for Skoringen engaging the users with Disney characters.",
+        "image": "/images/Skoringen - Bring Disney to you.jpg",
+        "video": "/videos/Skoringen - Bring Disney to you.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "3D Head Props",
+            "Background Segmentation"
+        ]
+    },
+    {
+        "title": "Size Store Air Jordan 1 Filter",
+        "description": "World Tracked 3D Experience for Size Store",
+        "image": "/images/SizeStoreAirJordan1Filter.jpg",
+        "video": "/videos/SizeStoreAirJordan1Filter.mov",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "3D World",
+            "World Tracking"
+        ]
+    },
+    {
+        "title": "Size Store Stockholm Portal",
+        "description": "3D Portal World Tracking Experience for Size Store in Stockholm",
+        "image": "/images/SizeStoreStockholmPortal.jpg",
+        "video": "/videos/SizeStoreStockholmPortal.mov",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "3D Portal",
+            "World Tracking"
+        ]
+    },
+    {
+        "title": "Orange Gold Collect",
+        "description": "Face Tracking 2D Collect Game for Orange Telecom",
+        "image": "/images/OrangeGamma3Dahab.jpg",
+        "video": "/videos/OrangeGamma3Dahab.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "Orange Ramadan 22 Filter",
+        "description": "Face Tracking 2D Randomizer for Orange Telecom Ramadan 2022 Egypt",
+        "image": "/images/OrangeRamdanRabie3.jpg",
+        "video": "/videos/OrangeRamdanRabie3.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "Metroen Map",
+        "description": "Interactive 2D Map of the Metroen in Copenhagen",
+        "image": "/images/Metro filter.jpg",
+        "video": "/videos/Metro filter.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Image Target",
+            "2D Animations",
+            "Interactive Map"
+        ]
+    },
+    {
+        "title": "Make My Baby Filter",
+        "description": "Funny future Baby filter for Bytte Bytte Baby Movie",
+        "image": "/images/MakeMyBabyFilter.jpg",
+        "video": "/videos/MakeMyBabyFilter.mov",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking",
+            "Face Masking"
+        ]
+    },
+    {
+        "title": "Ecorys Flags",
+        "description": "Face Effects Randomizer for Ecorys Consultancy",
+        "image": "/images/EcorysEUDay.jpg",
+        "video": "/videos/EcorysEUDay.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "El Abd Moled Filter",
+        "description": "Face Tracking 2D Randomizer for El Abd Patisserie",
+        "image": "/images/El Abd Moled Filter.jpg",
+        "video": "/videos/El Abd Moled Filter.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "Discovering Egypt Instagram Filter",
+        "description": "A world tracking experience for the DEVPOST AR Hackathon 2020 where users can explore various Egyptian monuments.",
+        "image": "/images/DEVPOST-AR-HACKATHON-2020-Discovering-Egypt-Instagram-Filter.jpg",
+        "video": "/videos/DEVPOST-AR-HACKATHON-2020-Discovering-Egypt-Instagram-Filter.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "World Tracking",
+            "3D Model Interactions"
+        ]
+    },
+    {
+        "title": "Andel x Roskilde Festival",
+        "description": "Face Tracking Instagram Filter for Andel",
+        "image": "/images/Andel x RF ( Glasses ) Filter.jpg",
+        "video": "/videos/Andel x RF ( Glasses ) Filter.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "3D Face Props",
+            "Face Tracking",
+            "Background Segmentation"
+        ]
+    },
+    {
+        "title": "Andel Puzzle",
+        "description": "2D Puzzle Game for Andel",
+        "image": "/images/Andel Puzzle Filter.jpg",
+        "video": "/videos/Andel Puzzle Filter.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "WE x Shaheen",
+        "description": "Face Tracking Instagram Filter for WE Telecom",
+        "image": "/images/WE_Shaheen_Filter.jpg",
+        "video": "/videos/WE_Shaheen_Filter.mp4",
+        "link": "",
+        "categories": [
+            "Instagram Filters",
+            "AR"
+        ],
+        "tags": [
+            "SparkAR",
+            "Face Tracking"
+        ]
+    },
+    {
+        "title": "Vivo Barefoot Tryon",
+        "description": "Foot Tryon WebAR Demo for Vivo Barefoot",
+        "image": "/images/Vivo-Tryon.jpg",
+        "video": "/videos/Vivo-Tryon.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "AR"
+        ],
+        "tags": [
+            "WebAR",
+            "DeepAR SDK",
+            "Foot Tryon",
+            "Model Viewer"
+        ]
+    },
+    {
+        "title": "Tuborg Elf WebAR",
+        "description": "WebAR Experience for Tuborg Beverages",
+        "image": "/images/Tuborg-Elf-Web.jpg",
+        "video": "/videos/Tuborg-Elf-Web.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "AR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "AR",
+            "Blippar Webar SDK",
+            "360 World Shooting Game",
+            "Device Motion",
+            "World Tracking"
+        ]
+    },
+    {
+        "title": "SeeBeyond HoloLens Experience",
+        "description": "HoloLens Collaborative Experience",
+        "image": "/images/SeeBeyond_Collaborative.jpg",
+        "video": "/videos/SeeBeyond_Collaborative.m4v",
+        "link": "",
+        "categories": [
+            "Featured",
+            "AR",
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "360 Photos Tour"
+        ]
+    },
+    {
+        "title": "Presidential Mobile App VR Tours",
+        "description": "360 VR Tours for the Egyptian Presidency Mobile App",
+        "image": "/images/Presidential-App-VR-Tours.jpg",
+        "video": "/videos/Presidential-App-VR-Tours.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "360 Photos Tour"
+        ]
+    },
+    {
+        "title": "Logic Training Medical Quiz VR",
+        "description": "A VR medical quiz game",
+        "image": "/images/Logic-Medical-Quiz-VR.jpg",
+        "video": "/videos/Logic-Medical-Quiz-VR.mp4",
+        "link": "",
+        "categories": [
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D Game",
+            "360 Video Player"
+        ]
+    },
+    {
+        "title": "Energie Fitness VR Workout",
+        "description": "A VR Workout VOD for Energie Fitness",
+        "image": "/images/Energie_Fitness_VR.jpg",
+        "video": "/videos/Energie_Fitness_VR.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "VOD API Integration",
+            "360 Video Player"
+        ]
+    },
+    {
+        "title": "EMAAR EGYPT Touch Screen",
+        "description": "Interactive Touch Screen Experience for EMAAR Egypt",
+        "image": "/images/EMAAR-EGYPT-TouchScreen.jpg",
+        "video": "/videos/EMAAR-EGYPT-TouchScreen.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Unreal Engine",
+            "2D Animations",
+            "3D Model Viewer"
+        ]
+    },
+    {
+        "title": "The Grand Egyptian Museum Photo Booth ",
+        "description": "An interactive photo booth experience at the Grand Egyptian Museum",
+        "image": "/images/GEM-PhotoBooth-Review.jpg",
+        "video": "/videos/GEM-PhotoBooth-Review.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Unity Engine",
+            "Photo Capture",
+            "Multi-Threading Queuing/Dequeuing photos System",
+            "Photos Upload API Integration"
+        ]
+    },
+    {
+        "title": "Creative Summit 21 Kinect Experience",
+        "description": "Interactive Kinect Body Tracking Game",
+        "image": "/images/CreativeSummit21-KinectExperience.jpg",
+        "video": "/videos/CreativeSummit21-KinectExperience.mp4",
+        "link": "",
+        "categories": [
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Unity Engine",
+            "Kinect Body Tracking",
+            "3D Game"
+        ]
+    },
+    {
+        "title": "Beyti Factory VR Experience",
+        "description": "360 VR Experience for Beyti Factory",
+        "image": "/images/BeytiElMasna3Experience.jpg",
+        "video": "/videos/BeytiElMasna3Experience.mp4",
+        "link": "",
+        "categories": [
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "360 Videos"
+        ]
+    },
+    {
+        "title": "Astrazaneca Expanding Our Dominance Experience",
+        "description": "Score Based Interactive experience for Astrazaneca",
+        "image": "/images/Astrazaneca.jpg",
+        "video": "/videos/Astrazaneca.mp4",
+        "link": "",
+        "categories": [
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Unity Engine",
+            "2D Game"
+        ]
+    },
+    {
+        "title": "Abbvie Rinvoq AR Guide",
+        "description": "Image Target based AR Guide for Abbvie",
+        "image": "/images/Abbvie-Rinvoq-AR-Guide.jpg",
+        "video": "/videos/Abbvie-Rinvoq-AR-Guide.mp4",
+        "link": "",
+        "categories": [
+            "AR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "MindAR Image Target",
+            "WebAR"
+        ]
+    },
+    {
+        "title": "PlasticHunt",
+        "description": "A project from the Meta's ARVR-Africa Hackathon focused on environmental awareness and plastic waste management.",
+        "image": "/images/ARVR-Africa Hackathon-plastichunt.jpg",
+        "video": "/videos/ARVR-Africa Hackathon-plastichunt.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "AR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "AR Foundation"
+        ]
+    },
+    {
+        "title": "International Conference on Smart Cities (ICSC) Kinect Runner",
+        "description": "Interactive Kinect Runner Game Experience",
+        "image": "/images/ISSC-Kinect 2023.jpg",
+        "video": "/videos/ISSC-Kinect 2023.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Unity Engine",
+            "Kinect Body Tracking",
+            "3D Runner Game"
+        ]
+    },
+    {
+        "title": "VR Kitchen Challenge",
+        "description": "A VR time-based game for White Point Appliances.",
+        "image": "/images/White-Point-Appliances-VR-Activation-Oculus-Go-Quest.jpg",
+        "video": "/videos/White-Point-Appliances-VR-Activation-Oculus-Go-Quest.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D Game"
+        ]
+    },
+    {
+        "title": "Qarari Road Safety VR",
+        "description": "A VR experience focused on road safety awareness in Oman.",
+        "image": "/images/RoadSafety_Qarari.jpg",
+        "video": "/videos/RoadSafety_Qarari.mp4",
+        "link": "",
+        "categories": [
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D Game"
+        ]
+    },
+    {
+        "title": "VR Plantation Guide",
+        "description": "A VR experience for Dubai Municipality focusing on plantation activites",
+        "image": "/images/Dubai-Municipality-VR-Plantation-Activation.jpg",
+        "video": "/videos/Dubai-Municipality-VR-Plantation-Activation.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D Game"
+        ]
+    },
+    {
+        "title": "Kelvinator VR Fridge Assembling",
+        "description": "A VR experience for Kelvinator focusing on fridge assembling.",
+        "image": "/images/Kelvinator Fridge Assembling.jpg",
+        "video": "/videos/Kelvinator Fridge Assembling.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D Game",
+            "Game Physics"
+        ]
+    },
+    {
+        "title": "VR Demo for Real Estate Developer",
+        "description": "A VR experience showcasing real estate properties for a developer.",
+        "image": "/images/Real-Estate-Exterior-Demo-Rift-Vive.jpg",
+        "video": "/videos/Real-Estate-Exterior-Demo-Rift-Vive.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D World"
+        ]
+    },
+    {
+        "title": "ZombieLand VR Arcade",
+        "description": "A multiplayer co-op Zombie Survival VR game.",
+        "image": "/images/ZombieLand-VR-Arcade-Multiplayer-Co-op-Game.jpg",
+        "video": "/videos/ZombieLand-VR-Arcade-Multiplayer-Co-op-Game.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "VR"
+        ],
+        "tags": [
+            "Unity Engine",
+            "VR",
+            "3D Shooting Game",
+            "Photon Networking",
+            "Multiplayer Co-Op"
+        ]
+    },
+    {
+        "title": "FaxeKombi Randomizer",
+        "description": "Ranking Randomizer Tiktok effect for FaxeKombi Beverages.",
+        "image": "/images/FaxeKombi-Beverages-Randomizer.jpg",
+        "video": "/videos/FaxeKombi-Beverages-Randomizer.mp4",
+        "link": "https://vt.tiktok.com/ZSSPFuT44/ ",
+        "categories": [
+            "Tiktok Effects",
+            "AR"
+        ],
+        "tags": [
+            "Effect House",
+            "2D Ramdomizer",
+            "Head Binding"
+        ]
+    },
+    {
+        "title": "e&a-Hekaya",
+        "description": "Sing Along Tiktok effect for e&a Hekaya Campaign.",
+        "image": "/images/e&a-Hekaya.jpg",
+        "video": "/videos/e&a-Hekaya.mp4",
+        "link": "https://www.tiktok.com/sticker/e-Hekaya-729539114 ",
+        "categories": [
+            "Tiktok Effects",
+            "AR"
+        ],
+        "tags": [
+            "Effect House",
+            "Background Segmentation",
+            "2D Animations"
+        ]
+    }
+]
