@@ -64,6 +64,19 @@ export default function Home() {
     }
   }, [projects.length]);
 
+  // Ensure page starts at top on load
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // Keep projects section in view when pagination changes
+  useEffect(() => {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection && currentPage > 1) {
+      projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [currentPage]);
+
   // Parallax state for profile image
   const [parallaxX, setParallaxX] = React.useState(0);
   // Parallax state for project grid
@@ -225,35 +238,35 @@ export default function Home() {
             {/* Pagination Controls */}
             {totalPages > 1 && (
               <div className="flex flex-wrap justify-center items-center mt-8 gap-2 w-full">
-                <button
-                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                  disabled={currentPage === 1}
-                  className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
-                >
-                  Prev
-                </button>
+                                 <button
+                   onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                   disabled={currentPage === 1}
+                   className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
+                 >
+                   Prev
+                 </button>
                 <span className="flex gap-2 flex-wrap justify-center w-full sm:w-auto">
                   {[...Array(totalPages)].map((_, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setCurrentPage(i + 1)}
-                      className={`px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full font-semibold border shadow-sm transition
-                        ${currentPage === i + 1
-                          ? 'bg-[#3b82f6] text-white border-[#3b82f6] drop-shadow-md'
-                          : 'bg-white/80 text-[#10172a] border-blue-200 hover:bg-blue-100 hover:text-[#3b82f6]'}
-                    `}
-                    >
-                      {i + 1}
-                    </button>
+                                         <button
+                       key={i}
+                       onClick={() => setCurrentPage(i + 1)}
+                       className={`px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full font-semibold border shadow-sm transition
+                         ${currentPage === i + 1
+                           ? 'bg-[#3b82f6] text-white border-[#3b82f6] drop-shadow-md'
+                           : 'bg-white/80 text-[#10172a] border-blue-200 hover:bg-blue-100 hover:text-[#3b82f6]'}
+                     `}
+                       >
+                         {i + 1}
+                       </button>
                   ))}
                 </span>
-                <button
-                  onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                  disabled={currentPage === totalPages}
-                  className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
-                >
-                  Next
-                </button>
+                                 <button
+                   onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                   disabled={currentPage === totalPages}
+                   className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
+                 >
+                   Next
+                 </button>
               </div>
             )}
           </div>
