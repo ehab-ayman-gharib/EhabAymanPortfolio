@@ -152,6 +152,23 @@
         ]
     },
     {
+        "title": "SigmaFit WebAR TryOn POC",
+        "description": "2D Tetris Game for Meny",
+        "image": "/images/Sigma-Fit-TryOn.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Sigma-Fit-TryOn.mp4",
+        "link": "https://ehabayman5dvr.github.io/ShoePOC/",
+        "categories": [
+            "Featured",
+            "AR"
+        ],
+        "tags": [
+            "WebAR",
+            "Camerakit WebSDK",
+            "Model Viewer",
+            "Lens Studio"
+        ]
+    },
+    {
         "title": "Meny Tetris",
         "description": "2D Tetris Game for Meny",
         "image": "/images/MenyTetris.jpg",
