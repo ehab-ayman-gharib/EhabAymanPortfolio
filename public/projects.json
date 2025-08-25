@@ -153,7 +153,7 @@
     },
     {
         "title": "SigmaFit WebAR TryOn POC",
-        "description": "2D Tetris Game for Meny",
+        "description": "A WebAR experience where users can tryon/view in AR different shoes styles using CameraKit WebSDK and Model Viewer",
         "image": "/images/Sigma-Fit-TryOn.jpg",
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Sigma-Fit-TryOn.mp4",
         "link": "https://ehabayman5dvr.github.io/ShoePOC/",
