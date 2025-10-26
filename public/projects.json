@@ -152,6 +152,23 @@
         ]
     },
     {
+        "title": "WaterCare Pukeko WebAR Experience",
+        "description": "An interactive WebAR experience designed to raise awareness among children, allowing them to place an animated 3D character in their environment and take selfies with it",
+        "image": "/images/Pukeko-WebAR.png",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Pukeko-WebAR.mp4",
+        "link": "https://ehabayman5dvr.github.io/PukekoARTest/",
+        "categories": [
+            "Featured",
+            "AR"
+        ],
+        "tags": [
+            "WebAR",
+            "Camerakit WebSDK",
+            "World Tracking",
+            "Lens Studio"
+        ]
+    },
+    {
         "title": "SigmaFit WebAR TryOn POC",
         "description": "A WebAR experience where users can tryon/view in AR different shoes styles using CameraKit WebSDK and Model Viewer",
         "image": "/images/Sigma-Fit-TryOn.jpg",
