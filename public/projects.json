@@ -153,7 +153,7 @@
     },
     {
         "title": "Orange Egypt - Grand Egyptian Museum Opening Web Activation",
-        "description": "Two interactive AI web experiences that transformed users into Ancient Egyptian royalty. Built using Snap’s CameraKit Web SDK, Google’s Nano-Banana model, and Snap’s Face Swap ML component. The campaign reached over 1.5M website visits and generated 50,000+ images in two days, blending cultural heritage with cutting-edge AI.",
+        "description": "Two interactive AI web experiences that transformed users into Ancient Egyptian royalty. Built using Snap’s CameraKit Web SDK, Google’s Nano-Banana model, and Snap’s Face Swap ML component.",
         "image": "/images/Orange-GEM-AI.jpg",
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Orange-GEM-AI.mp4",
         "link": "https://orange-gem-ai.com/",
