@@ -314,7 +314,7 @@ export default function Home() {
                 <FaEnvelope className="text-[#3b82f6] text-2xl" />
                 <div>
                   <span className="block text-gray-500 text-sm">Email</span>
-                  <a href="mailto:ehab.ayman.gharib@gmail.com" className="text-[#10172a] text-lg hover:text-[#3b82f6] transition">ehab.ayman.gharib@gmail.com</a>
+                  <a href="mailto:ehab.ayman.gh@gmail.com" className="text-[#10172a] text-lg hover:text-[#3b82f6] transition">ehab.ayman.gh@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-center gap-3">
