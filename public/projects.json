@@ -152,6 +152,24 @@
         ]
     },
     {
+        "title": "Orange Egypt - Grand Egyptian Museum Opening Web Activation",
+        "description": "Two interactive AI web experiences that transformed users into Ancient Egyptian royalty. Built using Snap’s CameraKit Web SDK, Google’s Nano-Banana model, and Snap’s Face Swap ML component. The campaign reached over 1.5M website visits and generated 50,000+ images in two days, blending cultural heritage with cutting-edge AI.",
+        "image": "/images/Orange-GEM-AI.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Orange-GEM-AI.mp4",
+        "link": "https://orange-gem-ai.com/",
+        "categories": [
+            "Featured",
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Interactive Experience",
+            "Camerakit WebSDK",
+            "Google's Gemini 2.5 Flash Image API",
+            "AI Experience",
+            "Face Swap"
+        ]
+    },
+    {
         "title": "WaterCare Pukeko WebAR Experience",
         "description": "An interactive WebAR experience designed to raise awareness among children, allowing them to place an animated 3D character in their environment and take selfies with it",
         "image": "/images/Pukeko-WebAR.png",
