@@ -210,21 +210,9 @@ export default function Home() {
               {paginatedProjects.map((project, idx) => {
                 const projectCompany = companies.find(c => c.id === project.companyId);
                 return (
-                  <div key={idx} className="relative group cursor-pointer rounded-2xl h-[500px]" onClick={() => setModalProject(project)}>
+                  <div key={idx} className="relative group cursor-pointer rounded-2xl min-h-[500px] flex flex-col" onClick={() => setModalProject(project)}>
                     <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
-                    <div className="relative z-10 bg-white/50 backdrop-blur-xl rounded-2xl p-5 flex flex-col items-center border border-white/50 shadow-[0_2px_20px_rgba(2,6,23,0.06),0_12px_40px_-20px_rgba(2,6,23,0.2)] transition-transform duration-300 transform hover:translate-y-[-2px] hover:shadow-[0_8px_30px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)] overflow-hidden h-full">
-                      {projectCompany && (
-                        <div className="absolute top-2 right-2 z-20 flex items-center gap-2 px-2 py-1 rounded-lg bg-white/40 backdrop-blur-md border border-white/40 shadow-sm group-hover:bg-white/60 transition-colors" title={projectCompany.name}>
-                          <Image
-                            src={projectCompany.logo}
-                            alt={projectCompany.name}
-                            width={20}
-                            height={20}
-                            className="w-5 h-5 object-contain"
-                          />
-                          <span className="text-[10px] font-bold text-[#0f172a]/60 tracking-wider">{projectCompany.name}</span>
-                        </div>
-                      )}
+                    <div className="relative z-10 bg-white/50 backdrop-blur-xl rounded-2xl p-5 flex flex-col items-center border border-white/50 shadow-[0_2px_20px_rgba(2,6,23,0.06),0_12px_40px_-20px_rgba(2,6,23,0.2)] transition-transform duration-300 transform hover:translate-y-[-2px] hover:shadow-[0_8px_30px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)] overflow-hidden h-full flex-1">
                       <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-16 rounded-[999px] bg-white/40 blur-3xl opacity-30 group-hover:opacity-40 transition"></div>
                       <div className="w-full h-48 mb-4 overflow-hidden rounded-xl flex items-center justify-center bg-gradient-to-br from-[#f0f4ff]/80 via-[#e0f7fa]/70 to-[#f0fff4]/80 relative shadow-md">
                         <Image
@@ -250,6 +238,43 @@ export default function Home() {
                         </div>
                       )}
                       <p className="text-[#0f172a]/80 text-sm text-center leading-relaxed flex-1">{project.description}</p>
+
+                      {projectCompany && (
+                        <div
+                          className={`mt-auto w-full pt-4 border-t border-blue-100/50 flex items-center justify-between group/company transition-all duration-200 ${projectCompany.website ? 'cursor-pointer hover:bg-blue-50/50 -mx-5 -mb-5 px-5 pb-5 rounded-b-2xl' : ''}`}
+                          onClick={(e) => {
+                            if (projectCompany.website) {
+                              e.stopPropagation();
+                              window.open(projectCompany.website, '_blank', 'noopener,noreferrer');
+                            }
+                          }}
+                        >
+                          <div className="flex items-center gap-3">
+                            <div className="relative w-10 h-10 flex items-center justify-center bg-white rounded-xl shadow-sm border border-blue-50 p-1.5 group-hover/company:border-blue-300 group-hover/company:shadow-md transition-all">
+                              <Image
+                                src={projectCompany.logo}
+                                alt={projectCompany.name}
+                                width={40}
+                                height={40}
+                                className="w-full h-full object-contain"
+                              />
+                            </div>
+                            <div className="flex flex-col">
+                              <span className="text-[10px] font-medium text-slate-500 uppercase tracking-widest leading-none mb-1">Company</span>
+                              <span className="text-sm font-bold text-[#0f172a] tracking-tight group-hover/company:text-blue-600 transition-colors uppercase italic">{projectCompany.name}</span>
+                            </div>
+                          </div>
+                          {projectCompany.website ? (
+                            <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-50 text-blue-500 opacity-0 group-hover/company:opacity-100 transition-all transform translate-x-2 group-hover:translate-x-0">
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                              </svg>
+                            </div>
+                          ) : (
+                            <div className="w-1.5 h-1.5 rounded-full bg-blue-400/40"></div>
+                          )}
+                        </div>
+                      )}
                     </div>
                   </div>
                 );
@@ -355,8 +380,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </section >
+      </div >
     </>
   );
 }

@@ -2,12 +2,14 @@
     {
         "id": 1,
         "name": "The ARlab",
-        "logo": "/logos/arlab.png"
+        "logo": "/logos/arlab.png",
+        "website": "https://www.thearlab.com/"
     },
     {
         "id": 2,
         "name": "5dVR",
-        "logo": "/logos/5dvr.jpg"
+        "logo": "/logos/5dvr.png",
+        "website": "https://www.5d-vr.com/"
     },
     {
         "id": 3,
@@ -17,6 +19,7 @@
     {
         "id": 4,
         "name": "EpicVR",
-        "logo": "/logos/epicvr.png"
+        "logo": "/logos/epicvr.png",
+        "website": "https://www.instagram.com/epicvr/"
     }
 ]
