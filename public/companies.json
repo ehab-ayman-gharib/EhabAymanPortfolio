@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "The ARlab",
+        "logo": "/logos/arlab.png"
+    },
+    {
+        "id": 2,
+        "name": "5dVR",
+        "logo": "/logos/5dvr.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Freelance",
+        "logo": "/logos/Freelance.jpg"
+    },
+    {
+        "id": 4,
+        "name": "EpicVR",
+        "logo": "/logos/epicvr.png"
+    }
+]

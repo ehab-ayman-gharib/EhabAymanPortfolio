@@ -10,16 +10,21 @@ export default function Home() {
   const [filter, setFilter] = useState('All');
   const [modalProject, setModalProject] = useState(null);
   const [search, setSearch] = useState("");
+  const [companies, setCompanies] = useState([]);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 6;
 
-  // Fetch projects from JSON file
+  // Fetch projects and companies from JSON files
   useEffect(() => {
     fetch('/projects.json')
       .then(res => res.json())
       .then(data => setProjects(data));
+
+    fetch('/companies.json')
+      .then(res => res.json())
+      .then(data => setCompanies(data));
   }, []);
 
   // Get all unique categories from all projects (multi-category support)
@@ -202,104 +207,119 @@ export default function Home() {
               onMouseMove={handleGridParallax}
               onMouseLeave={resetGridParallax}
             >
-              {paginatedProjects.map((project, idx) => (
-                <div key={idx} className="relative group cursor-pointer rounded-2xl h-[500px]" onClick={() => setModalProject(project)}>
-                  <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
-                  <div className="relative z-10 bg-white/50 backdrop-blur-xl rounded-2xl p-5 flex flex-col items-center border border-white/50 shadow-[0_2px_20px_rgba(2,6,23,0.06),0_12px_40px_-20px_rgba(2,6,23,0.2)] transition-transform duration-300 transform hover:translate-y-[-2px] hover:shadow-[0_8px_30px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)] overflow-hidden h-full">
-                    <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-16 rounded-[999px] bg-white/40 blur-3xl opacity-30 group-hover:opacity-40 transition"></div>
-                    <div className="w-full h-48 mb-4 overflow-hidden rounded-xl flex items-center justify-center bg-gradient-to-br from-[#f0f4ff]/80 via-[#e0f7fa]/70 to-[#f0fff4]/80 relative shadow-md">
-                      <Image
-                        src={project.image}
-                        alt={project.title}
-                        width={400}
-                        height={192}
-                        className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:brightness-105 rounded-xl"
-                      />
-                      <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition"></div>
-                      <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
-                        <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/90 text-[#0f172a] text-sm font-semibold shadow-md opacity-0 group-hover:opacity-100 transition">
-                          <FaPlay className="text-[#3b82f6]" /> Preview
-                        </span>
+              {paginatedProjects.map((project, idx) => {
+                const projectCompany = companies.find(c => c.id === project.companyId);
+                return (
+                  <div key={idx} className="relative group cursor-pointer rounded-2xl h-[500px]" onClick={() => setModalProject(project)}>
+                    <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
+                    <div className="relative z-10 bg-white/50 backdrop-blur-xl rounded-2xl p-5 flex flex-col items-center border border-white/50 shadow-[0_2px_20px_rgba(2,6,23,0.06),0_12px_40px_-20px_rgba(2,6,23,0.2)] transition-transform duration-300 transform hover:translate-y-[-2px] hover:shadow-[0_8px_30px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)] overflow-hidden h-full">
+                      {projectCompany && (
+                        <div className="absolute top-2 right-2 z-20 flex items-center gap-2 px-2 py-1 rounded-lg bg-white/40 backdrop-blur-md border border-white/40 shadow-sm group-hover:bg-white/60 transition-colors" title={projectCompany.name}>
+                          <Image
+                            src={projectCompany.logo}
+                            alt={projectCompany.name}
+                            width={20}
+                            height={20}
+                            className="w-5 h-5 object-contain"
+                          />
+                          <span className="text-[10px] font-bold text-[#0f172a]/60 tracking-wider">{projectCompany.name}</span>
+                        </div>
+                      )}
+                      <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-16 rounded-[999px] bg-white/40 blur-3xl opacity-30 group-hover:opacity-40 transition"></div>
+                      <div className="w-full h-48 mb-4 overflow-hidden rounded-xl flex items-center justify-center bg-gradient-to-br from-[#f0f4ff]/80 via-[#e0f7fa]/70 to-[#f0fff4]/80 relative shadow-md">
+                        <Image
+                          src={project.image}
+                          alt={project.title}
+                          width={400}
+                          height={192}
+                          className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:brightness-105 rounded-xl"
+                        />
+                        <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+                        <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
+                          <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/90 text-[#0f172a] text-sm font-semibold shadow-md opacity-0 group-hover:opacity-100 transition">
+                            <FaPlay className="text-[#3b82f6]" /> Preview
+                          </span>
+                        </div>
                       </div>
+                      <h2 className="heading-font text-xl font-semibold mb-2 text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-indigo-600">{project.title}</h2>
+                      {project.tags && project.tags.length > 0 && (
+                        <div className="flex flex-wrap gap-2 mb-2 justify-center">
+                          {project.tags.map(tag => (
+                            <span key={tag} className="px-2 py-1 text-xs rounded-full bg-white/60 backdrop-blur-md text-[#0f172a] border border-white/80 shadow-sm">{tag}</span>
+                          ))}
+                        </div>
+                      )}
+                      <p className="text-[#0f172a]/80 text-sm text-center leading-relaxed flex-1">{project.description}</p>
                     </div>
-                    <h2 className="heading-font text-xl font-semibold mb-2 text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-indigo-600">{project.title}</h2>
-                    {project.tags && project.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-2 mb-2 justify-center">
-                        {project.tags.map(tag => (
-                          <span key={tag} className="px-2 py-1 text-xs rounded-full bg-white/60 backdrop-blur-md text-[#0f172a] border border-white/80 shadow-sm">{tag}</span>
-                        ))}
-                      </div>
-                    )}
-                    <p className="text-[#0f172a]/80 text-sm text-center leading-relaxed flex-1">{project.description}</p>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
             {/* Pagination Controls */}
             {totalPages > 1 && (
               <div className="flex flex-wrap justify-center items-center mt-8 gap-2 w-full">
-                                 <button
-                   onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                   disabled={currentPage === 1}
-                   className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
-                 >
-                   Prev
-                 </button>
+                <button
+                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                  className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
+                >
+                  Prev
+                </button>
                 <span className="flex gap-2 flex-wrap justify-center w-full sm:w-auto">
                   {[...Array(totalPages)].map((_, i) => (
-                                         <button
-                       key={i}
-                       onClick={() => setCurrentPage(i + 1)}
-                       className={`px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full font-semibold border shadow-sm transition
+                    <button
+                      key={i}
+                      onClick={() => setCurrentPage(i + 1)}
+                      className={`px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full font-semibold border shadow-sm transition
                          ${currentPage === i + 1
-                           ? 'bg-[#3b82f6] text-white border-[#3b82f6] drop-shadow-md'
-                           : 'bg-white/80 text-[#10172a] border-blue-200 hover:bg-blue-100 hover:text-[#3b82f6]'}
+                          ? 'bg-[#3b82f6] text-white border-[#3b82f6] drop-shadow-md'
+                          : 'bg-white/80 text-[#10172a] border-blue-200 hover:bg-blue-100 hover:text-[#3b82f6]'}
                      `}
-                       >
-                         {i + 1}
-                       </button>
+                    >
+                      {i + 1}
+                    </button>
                   ))}
                 </span>
-                                 <button
-                   onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                   disabled={currentPage === totalPages}
-                   className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
-                 >
-                   Next
-                 </button>
+                <button
+                  onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                  disabled={currentPage === totalPages}
+                  className="px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-base rounded-full bg-white/80 text-[#3b82f6] border border-blue-200 font-semibold shadow-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-100 transition"
+                >
+                  Next
+                </button>
               </div>
             )}
           </div>
           {/* Modal Video Player */}
           {modalProject && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm" onClick={() => setModalProject(null)}>
-                             <div className="bg-white/50 backdrop-blur-xl rounded-2xl p-4 sm:p-6 w-full max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl relative flex flex-col items-center border border-white/50 shadow-[0_8px_32px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)]" onClick={e => e.stopPropagation()}>
-                 <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
+              <div className="bg-white/50 backdrop-blur-xl rounded-2xl p-4 sm:p-6 w-full max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl relative flex flex-col items-center border border-white/50 shadow-[0_8px_32px_rgba(2,6,23,0.12),0_16px_60px_-20px_rgba(59,130,246,0.35)]" onClick={e => e.stopPropagation()}>
+                <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl opacity-60 bg-gradient-to-br from-sky-400/50 via-white/20 to-indigo-500/50 blur-[1px]"></div>
                 <button className="absolute top-3 right-3 text-[#10172a] hover:text-[#3b82f6] text-2xl z-10 transition-colors" onClick={() => setModalProject(null)}>&times;</button>
-                                                  <h2 className="heading-font text-lg sm:text-xl font-bold mb-4 text-center px-2 leading-tight text-[#10172a]">{modalProject.title}</h2>
-                                                     <div className="w-full flex justify-center items-center mb-4">
-                    <div className="relative w-full max-w-2xl mx-auto">
-                                            <video
-                         src={modalProject.video}
-                         controls
-                         autoPlay
-                         className="w-full h-auto max-h-[70vh] rounded-lg shadow-lg"
-                       />
-                   </div>
-                 </div>
-                                 {modalProject.link && modalProject.link.trim() !== "" && (
-                   <a 
-                     href={modalProject.link} 
-                     target="_blank" 
-                     rel="noopener noreferrer" 
-                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#3b82f6] text-white font-semibold shadow-md hover:bg-[#2563eb] hover:shadow-lg transition-all duration-200 transform hover:scale-105"
-                   >
-                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                     </svg>
-                     View Project
-                   </a>
-                 )}
+                <h2 className="heading-font text-lg sm:text-xl font-bold mb-4 text-center px-2 leading-tight text-[#10172a]">{modalProject.title}</h2>
+                <div className="w-full flex justify-center items-center mb-4">
+                  <div className="relative w-full max-w-2xl mx-auto">
+                    <video
+                      src={modalProject.video}
+                      controls
+                      autoPlay
+                      className="w-full h-auto max-h-[70vh] rounded-lg shadow-lg"
+                    />
+                  </div>
+                </div>
+                {modalProject.link && modalProject.link.trim() !== "" && (
+                  <a
+                    href={modalProject.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#3b82f6] text-white font-semibold shadow-md hover:bg-[#2563eb] hover:shadow-lg transition-all duration-200 transform hover:scale-105"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    View Project
+                  </a>
+                )}
               </div>
             </div>
           )}
