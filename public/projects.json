@@ -161,6 +161,27 @@
         "companyId": 2
     },
     {
+        "title": "El Sett - Oum Kalthoum AR Filters",
+        "description": "Official AR filters for the film 'El Sett' on TikTok and Snapchat, allowing users to try on Oum Kalthoum's signature glasses and enter a movie-themed scene.",
+        "image": "/images/El-Sett-Filters.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/El-Sett-Filter.mp4",
+        "link": "https://lnkd.in/dAkSh44D",
+        "categories": [
+            "Featured",
+            "Snapchat Lenses",
+            "Tiktok Effects",
+            "AR"
+        ],
+        "tags": [
+            "Lens Studio",
+            "Effect House",
+            "Multi-User Tracking",
+            "3D Accessories",
+            "Face Tracking"
+        ],
+        "companyId": 3
+    },
+    {
         "title": "Orange Egypt - Grand Egyptian Museum Opening Web Activation",
         "description": "Two interactive AI web experiences that transformed users into Ancient Egyptian royalty. Built using Snap’s CameraKit Web SDK, Google’s Nano-Banana model, and Snap’s Face Swap ML component.",
         "image": "/images/Orange-GEM-AI.jpg",
@@ -1512,7 +1533,7 @@
         "companyId": 2
     },
     {
-        "title": "VR Kitchen Challenge",
+        "title": "White Point Kitchen Challenge",
         "description": "A VR time-based game for White Point Appliances.",
         "image": "/images/White-Point-Appliances-VR-Activation-Oculus-Go-Quest.jpg",
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/WetElmRamadan.mp4",
