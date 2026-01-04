@@ -108,7 +108,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ehab Ayman - Lead Game & AR/VR Developer</title>
+        <title>Ehab Ayman - Lead Game & Creative Technologist</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
@@ -128,10 +128,10 @@ export default function Home() {
                 I&apos;m <span className="text-[#3b82f6]">Ehab Ayman</span>
               </h1>
               <h2 className="heading-font text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-[#10172a] tracking-tight">
-                Lead Game & AR/VR Developer
+                Lead Game & Creative Technologist
               </h2>
               <p className="text-slate-700 text-base sm:text-lg leading-relaxed mb-4 max-w-2xl mx-auto md:mx-0">
-                Building games and AR/VR experiences with Hands-on experience in <span className="font-semibold text-slate-900">Unity</span>, <span className="font-semibold text-slate-900">Lens Studio</span>, <span className="font-semibold text-slate-900">AR Foundation</span>, and interactive 3D media.
+                Turning creative concepts into interactive reality. Specializing in <span className="font-semibold text-slate-900">Unity</span>, <span className="font-semibold text-slate-900">WebXR</span>, and <span className="font-semibold text-slate-900">Immersive Media</span> to build high-fidelity <span className="font-semibold text-slate-900">Games</span> and <span className="font-semibold text-slate-900">AR activations</span> for global brands.
               </p>
               <div className="flex flex-wrap gap-2 mb-6 justify-center md:justify-start">
                 <span className="px-2.5 py-1 text-xs rounded-full bg-white/70 backdrop-blur text-[#0f172a] border border-blue-100">Unity</span>
