@@ -1,5 +1,43 @@
 [
     {
+        "title": "Chuck E. Cheese AI Photo Booth",
+        "description": "An AI-powered photo booth developed for the US Embassy in Egypt's 4th of July celebration. The app uses Google's Gemini AI to transform guest photos into cinematic, CGI-quality portraits alongside Chuck E. Cheese and friends, blending iconic American and Egyptian landmarks.",
+        "image": "/images/Chuck-E-Cheese-Photobooth.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/CHUCK-E-CHEESE.mp4",
+        "link": "",
+        "categories": [
+            "Featured",
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Interactive Experience",
+            "AI Experience",
+            "Google's Gemini 3.1 Flash Image API",
+            "face-api.js",
+            "Electron"
+        ],
+        "companyId": 2
+    },
+    {
+        "title": "Clarion Bayer Samurai AI Photo Booth",
+        "description": "An AI-powered photo booth developed for the Clarion Bayer Cancer Fighters Event. The application uses Google's Gemini 2.5 Flash Image API to transform guest photos into samurai portraits, dressing them in traditional Japanese warrior attire within a cinematic Dojo setting.",
+        "image": "/images/Clarion-Bayer-Samurai.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Clarion-Bayer-Samurai.mp4",
+        "link": "",
+        "categories": [
+            "Interactive Experiences"
+        ],
+        "tags": [
+            "Interactive Experience",
+            "AI Experience",
+            "Google's Gemini 3.1 Flash Image API",
+            "face-api.js",
+            "Electron",
+            "Three.js"
+        ],
+        "companyId": 2
+    },
+    {
         "title": "ICE Catch Game",
         "description": "A Back Camera Device Motion Based Catch Game",
         "image": "/images/ICE-Catch-Game.jpg",
@@ -207,7 +245,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Pukeko-WebAR.mp4",
         "link": "https://ehabayman5dvr.github.io/PukekoARTest/",
         "categories": [
-            "Featured",
             "AR"
         ],
         "tags": [
@@ -219,22 +256,23 @@
         "companyId": 2
     },
     {
-        "title": "SigmaFit WebAR TryOn POC",
-        "description": "A WebAR experience where users can tryon/view in AR different shoes styles using CameraKit WebSDK and Model Viewer",
-        "image": "/images/Sigma-Fit-TryOn.jpg",
-        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Sigma-Fit-TryOn.mp4",
-        "link": "https://ehabayman5dvr.github.io/ShoePOC/",
+        "title": "Explore Abu Dhabi",
+        "description": "Ineractive 3D Map experience where users can explore the cultural landmarks of Abu Dhabi",
+        "image": "/images/DepartmentOfCultureAndTourismAbuDhabi-Summer25.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/DepartmentOfCultureAndTourismAbuDhabi-Summer25.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=166b4be1da104bf0b7f9aeffbd1e5e7a&metadata=01",
         "categories": [
             "Featured",
+            "Snapchat Lenses",
             "AR"
         ],
         "tags": [
-            "WebAR",
-            "Camerakit WebSDK",
-            "Model Viewer",
-            "Lens Studio"
+            "Lens Studio",
+            "JavaScript",
+            "Background Segmentation",
+            "Quiz Game"
         ],
-        "companyId": 2
+        "companyId": 1
     },
     {
         "title": "Meny Tetris",
@@ -243,7 +281,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/MenyTetris.mp4",
         "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=5fb1a0e323a44080a9ccf6913b8b3cba&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -297,7 +334,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/CameraKit-Web-BodyTracking.webm",
         "link": "",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -390,7 +426,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Aromatic-Amazing-Lenses-24.mp4",
         "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=efe2b474e61047cc968c26258c141e90&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -478,11 +513,11 @@
         "companyId": 1
     },
     {
-        "title": "Explore Abu Dhabi",
-        "description": "Ineractive 3D Map experience where users can explore the cultural landmarks of Abu Dhabi",
-        "image": "/images/DepartmentOfCultureAndTourismAbuDhabi-Summer25.jpg",
-        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/DepartmentOfCultureAndTourismAbuDhabi-Summer25.mp4",
-        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=166b4be1da104bf0b7f9aeffbd1e5e7a&metadata=01",
+        "title": "Lipton Zero Fear",
+        "description": "Interactive experience for Lipton Zero where users are engaged in different environments with Lipton Zero product",
+        "image": "/images/Lipton-Zero-Fear-24.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Lipton-Zero-Fear-24.mp4",
+        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=26e4fb39c5114fb09faa4f9d71e3d9f0&metadata=01",
         "categories": [
             "Featured",
             "Snapchat Lenses",
@@ -492,7 +527,9 @@
             "Lens Studio",
             "JavaScript",
             "Background Segmentation",
-            "Quiz Game"
+            "2D Animations",
+            "Face Tracking",
+            "ML Face Effects"
         ],
         "companyId": 1
     },
@@ -514,31 +551,32 @@
         "companyId": 1
     },
     {
-        "title": "Dominos Slice Catcher",
-        "description": "A 2D catch game for Dominos where users get to catch correct pizza ingredients",
-        "image": "/images/Dominos-Slice-Catcher.jpg",
-        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Dominos-Slice-Catcher.mp4",
-        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=cfd68be064d04e2e97e6cbe0e25487b7&metadata=01",
+        "title": "Tuborg Elf WebAR",
+        "description": "WebAR Experience for Tuborg Beverages",
+        "image": "/images/Tuborg-Elf-Web.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Tuborg-Elf-Web.mp4",
+        "link": "",
         "categories": [
             "Featured",
-            "Snapchat Lenses",
             "AR"
         ],
         "tags": [
-            "Lens Studio",
-            "JavaScript",
-            "2D Game"
+            "Unity Engine",
+            "AR",
+            "Blippar Webar SDK",
+            "360 World Shooting Game",
+            "Device Motion",
+            "World Tracking"
         ],
-        "companyId": 1
+        "companyId": 2
     },
     {
-        "title": "Find What you love",
+        "title": "EBAY - Find What you love",
         "description": "Head Tilt controlled knockout experience for EBAY where users can select their favorite product",
         "image": "/images/EBAYxCAT.jpg",
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/EBAYxCAT.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=a029711a24b849b98e896fec9890f639&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -594,7 +632,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/FlyEmiratesMadagascar.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c5638c625ebc40ffa1a99f687bd94d9b&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -633,7 +670,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/JahezRunnerGame.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=aa6fa060a38f4473add95d1fe57a5720&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -651,7 +687,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/JGroup-Runner-Game-Mirror.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=7a994b4f17cc45719c47519bf6dd0ce3&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -688,7 +723,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Kraft-It-Karaoke.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=ad9576e8364540098a7cc1cde2ba7400&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -754,25 +788,22 @@
         "companyId": 1
     },
     {
-        "title": "Lipton Zero Fear",
-        "description": "Interactive experience for Lipton Zero where users are engaged in different environments with Lipton Zero product",
-        "image": "/images/Lipton-Zero-Fear-24.jpg",
-        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Lipton-Zero-Fear-24.mp4",
-        "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=26e4fb39c5114fb09faa4f9d71e3d9f0&metadata=01",
+        "title": "The Grand Egyptian Museum Photo Booth ",
+        "description": "An interactive photo booth experience at the Grand Egyptian Museum",
+        "image": "/images/GEM-PhotoBooth-Review.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/GEM-PhotoBooth-Review.mp4",
+        "link": "",
         "categories": [
             "Featured",
-            "Snapchat Lenses",
-            "AR"
+            "Interactive Experiences"
         ],
         "tags": [
-            "Lens Studio",
-            "JavaScript",
-            "Background Segmentation",
-            "2D Animations",
-            "Face Tracking",
-            "ML Face Effects"
+            "Unity Engine",
+            "Photo Capture",
+            "Multi-Threading Queuing/Dequeuing photos System",
+            "Photos Upload API Integration"
         ],
-        "companyId": 1
+        "companyId": 2
     },
     {
         "title": "Liwa Festival - Vroom To The Dunes",
@@ -781,7 +812,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Liwa-Festival-Vroom-To-The-Dunes-24.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=85dbade5112243f99dfa1069b29bb063&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -801,7 +831,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Maybelline-SunKisser-Blush.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=cea46418406845729b1058df36c05163&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -821,7 +850,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/MOC-Cultural-Tournament-2.mp4",
         "link": "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=9d307d1d3ab44fe98e4e5a4532cc4a34&metadata=01",
         "categories": [
-            "Featured",
             "Snapchat Lenses",
             "AR"
         ],
@@ -1026,7 +1054,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/ZedParkWinterFestival.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "Instagram Filters",
             "AR"
         ],
@@ -1164,7 +1191,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Metro%20filter.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "Instagram Filters",
             "AR"
         ],
@@ -1232,7 +1258,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/DEVPOST-AR-HACKATHON-2020-Discovering-Egypt-Instagram-Filter.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "Instagram Filters",
             "AR"
         ],
@@ -1300,7 +1325,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Vivo-Tryon.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "AR"
         ],
         "tags": [
@@ -1312,24 +1336,21 @@
         "companyId": 2
     },
     {
-        "title": "Tuborg Elf WebAR",
-        "description": "WebAR Experience for Tuborg Beverages",
-        "image": "/images/Tuborg-Elf-Web.jpg",
-        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Tuborg-Elf-Web.mp4",
-        "link": "",
+        "title": "Dominos Slice Catcher",
+        "description": "A 2D catch game for Dominos where users get to catch correct pizza ingredients",
+        "image": "/images/Dominos-Slice-Catcher.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Dominos-Slice-Catcher.mp4",
+        "link": "https://www.Snapchat.com/unlock/?type=SNAPCODE&uuid=cfd68be064d04e2e97e6cbe0e25487b7&metadata=01",
         "categories": [
-            "Featured",
+            "Snapchat Lenses",
             "AR"
         ],
         "tags": [
-            "Unity Engine",
-            "AR",
-            "Blippar Webar SDK",
-            "360 World Shooting Game",
-            "Device Motion",
-            "World Tracking"
+            "Lens Studio",
+            "JavaScript",
+            "2D Game"
         ],
-        "companyId": 2
+        "companyId": 1
     },
     {
         "title": "SeeBeyond HoloLens Experience",
@@ -1356,7 +1377,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Presidential-App-VR-Tours.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "VR"
         ],
         "tags": [
@@ -1419,20 +1439,19 @@
         "companyId": 2
     },
     {
-        "title": "The Grand Egyptian Museum Photo Booth ",
-        "description": "An interactive photo booth experience at the Grand Egyptian Museum",
-        "image": "/images/GEM-PhotoBooth-Review.jpg",
-        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/GEM-PhotoBooth-Review.mp4",
-        "link": "",
+        "title": "SigmaFit WebAR TryOn POC",
+        "description": "A WebAR experience where users can tryon/view in AR different shoes styles using CameraKit WebSDK and Model Viewer",
+        "image": "/images/Sigma-Fit-TryOn.jpg",
+        "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Sigma-Fit-TryOn.mp4",
+        "link": "https://ehabayman5dvr.github.io/ShoePOC/",
         "categories": [
-            "Featured",
-            "Interactive Experiences"
+            "AR"
         ],
         "tags": [
-            "Unity Engine",
-            "Photo Capture",
-            "Multi-Threading Queuing/Dequeuing photos System",
-            "Photos Upload API Integration"
+            "WebAR",
+            "Camerakit WebSDK",
+            "Model Viewer",
+            "Lens Studio"
         ],
         "companyId": 2
     },
@@ -1506,7 +1525,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/ARVR-Africa%20Hackathon-plastichunt.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "AR"
         ],
         "tags": [
@@ -1522,7 +1540,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/ISSC-Kinect%202023.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "Interactive Experiences"
         ],
         "tags": [
@@ -1539,7 +1556,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/WetElmRamadan.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "VR"
         ],
         "tags": [
@@ -1572,7 +1588,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Dubai-Municipality-VR-Plantation-Activation.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "VR"
         ],
         "tags": [
@@ -1589,7 +1604,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Kelvinator%20Fridge%20Assembling.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "VR"
         ],
         "tags": [
@@ -1607,7 +1621,6 @@
         "video": "https://pub-052061fdbe8544a08136cd8352d8adba.r2.dev/videos/Real-Estate-Exterior-Demo-Rift-Vive.mp4",
         "link": "",
         "categories": [
-            "Featured",
             "VR"
         ],
         "tags": [
